@@ -5,9 +5,10 @@ class ClientePO {
     private $nombre;
     private $apellidos;
     private $edad;
+    
 
 
-        public function GetNombre(){
+      public function GetNombre(){
             return $this->nombre;
         }
 
